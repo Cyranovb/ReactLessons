@@ -1,9 +1,15 @@
 import './App.css';
 
+//lessons
+import Lesson02 from './lessons/Lesson02/Lesson02';
+
+//homework
+
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello React</h1>
+      <Lesson02 />
     </div>
   );
 }
